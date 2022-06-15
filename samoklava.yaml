@@ -32,8 +32,13 @@ points:
       #   rotate: 5
       key.padding: ky
       columns:
-        pinky:
+        outer:
           stagger: 0 ky
+          spread: kx
+          key:
+            column_net: P21
+        pinky:
+          stagger: 0.1 ky
           spread: kx
           key:
             column_net: P20
@@ -431,7 +436,7 @@ pcbs:
             - matrix_pinky_bottom
           shift: [0.75 kx, 0]
         params:
-          text: "samoklava v0.1\\nby soundmonster"
+          text: "Test v0.1\\nby dalind"
           justify: left
       info_r:
         type: text
@@ -441,6 +446,5 @@ pcbs:
           shift: [0.75 kx, 0]
         params:
           layer: B.SilkS
-          text: "samoklava v0.1\\nby soundmonster"
+          text: "Test v0.1\\nby dalind"
           justify: right mirror
-
