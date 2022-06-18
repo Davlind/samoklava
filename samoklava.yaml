@@ -233,19 +233,19 @@ outlines:
         type: circle
         anchor:
           - ref: matrix_pinky_top
-            shift: [-0.5 kx, 0 ky]
+            shift: [-0.5 kx, -0.2 ky]
         radius: 1.05
       bottom_left:
         type: circle
         anchor:
           - ref: matrix_outer_bottom
-            shift: [0.5 kx, 0]
+            shift: [0.5 kx, -0.1 ky]
         radius: 1.05
       top_right:
         type: circle
         anchor:
           - ref: matrix_inner_top
-            shift: [-0.5 kx, 0]
+            shift: [-0.5 kx, -0.1 ky]
         radius: 1.05
       palm:
         type: circle
@@ -505,17 +505,17 @@ pcbs:
         anchor:
           ref:
             - matrix_pinky_bottom
-          shift: [0.75 kx, 0]
+          shift: [0.75 kx, -0.33 ky]
         params:
-          text: "Stellis v0.1\\nby dalind"
+          text: "Stellis v0.4 by dalind"
           justify: left
       info_r:
         type: text
         anchor:
           ref:
             - matrix_pinky_bottom
-          shift: [0.75 kx, 0]
+          shift: [0.75 kx, -0.33 ky]
         params:
           layer: B.SilkS
-          text: "Stellis v0.1\\nby dalind"
+          text: "Stellis v0.4 by dalind"
           justify: right mirror
