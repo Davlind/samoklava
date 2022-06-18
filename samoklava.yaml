@@ -233,19 +233,19 @@ outlines:
         type: circle
         anchor:
           - ref: matrix_pinky_top
-            shift: [-0.5 kx, -0.2 ky]
+            shift: [-0.5 kx, 0]
         radius: 1.05
       bottom_left:
         type: circle
         anchor:
           - ref: matrix_outer_bottom
-            shift: [0.5 kx, -0.1 ky]
+            shift: [0.5 kx, 0]
         radius: 1.05
       top_right:
         type: circle
         anchor:
           - ref: matrix_inner_top
-            shift: [-0.5 kx, -0.1 ky]
+            shift: [-0.5 kx, 0]
         radius: 1.05
       palm:
         type: circle
