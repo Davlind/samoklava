@@ -5,6 +5,7 @@ units:
   keyy: 16.5
   px: 2
   py: 2
+  case_thickness: 1.6
 points:
   key:
     tags:
@@ -519,3 +520,8 @@ pcbs:
           layer: B.SilkS
           text: "Stellis v0.4 by dalind"
           justify: right mirror
+cases:
+  switchplate:
+    - type: outline
+      name: base_outline
+      extrude: 1.6
